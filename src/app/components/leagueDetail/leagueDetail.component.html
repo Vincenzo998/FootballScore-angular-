@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-md-5 p-3 pr-5">
+        <div class="col p-2 m-3 customize-titlebox shadow">    
+            <a class="subtitle-text"> Squadre: </a>
+        </div>
+        <div *ngIf="teams" class="col p-2 ml-5 border customize-box shadow">
+            <img src="{{teams.logo_path}}" class="customize-img"/>
+            <a class="list-text pl-1"> {{teams.name}} </a>
+        </div>
+    </div>
+    <div class="col-md-5 offset-md-1">
+        <div class="col p-2 m-3 customize-titlebox shadow">
+            <div class="row">
+                <div class="col">
+                    <a class="subtitle-text"> Giocatore: </a>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="players" class="col p-2 ml-5 customize-box shadow">
+            <div class="row">
+                <div class="col">
+                    <img src="{{players.image_path}}"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a class="list-text"> Nome: </a>
+                    <a class="list-text"> {{players.firstname}} </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a class="list-text"> Data di Nascita: {{players.birthdate}} </a>
+                    <a class="list-text"> Paese di ascita: {{players.birthcountry}} </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a class="list-text"> Altezza: {{players.height}} </a>
+                    <a class="list-text"> Peso: {{players.weight}} </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

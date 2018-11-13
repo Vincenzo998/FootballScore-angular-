@@ -1,0 +1,25 @@
+.customize-box{
+    border-color: #00a152!important;
+    border-radius: 5px;
+    background: #00a152;
+}
+
+.customize-titlebox{
+    background: #00a152;
+    border-radius: 5px;
+}
+
+.subtitle-text{
+    font-size: 25px;
+    color: white!important;
+}
+
+.list-text{
+    color: white;
+    font-size: 18px;
+}
+
+.costumize-a{
+    color: white!important;
+    text-decoration: none!important;
+}

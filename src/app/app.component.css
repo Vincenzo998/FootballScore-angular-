@@ -1,0 +1,31 @@
+.headerbox {
+    background-color:#00a152;
+    height:300px;
+    width:100%;
+    background-size:cover;
+    position:relative;
+    z-index:-1;
+}
+
+#backshape .wrapper {
+    display:block;
+    float:left;
+    margin:100px auto 190px;
+    width:100%;
+    padding:0 5%;
+    transform:skew(0deg,-5deg);
+    -ms-transform:skew(0deg,-10deg);
+    -webkit-transform:skew(0deg,-4deg); 
+}
+
+#backshape {
+    z-index:1;
+    display:block;
+    float:left;
+    margin-top:-150px;
+    width:100%;
+    background:#00e676;
+    transform:skew(0deg,10deg);
+    -ms-transform:skew(0deg,10deg); /* IE 9 */
+    -webkit-transform:skew(0deg,4deg); /* Safari and Chrome */
+}
